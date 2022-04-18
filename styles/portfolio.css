@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -58,7 +58,10 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
+  background: #f9eeee;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 
 .content h1 {
@@ -86,8 +89,10 @@ p {
 .content {
   margin: 30px;
 }
+
 .content .row {
-  background: lavenderblush;
+  background: #f9f7fe;
+  border-radius: 5px;
 }
 
 .btn-branding {
@@ -178,6 +183,15 @@ footer .socila-links {
   transition: all 100ms ease-in-out;
 }
 
+footer p a {
+  text-decoration: none;
+}
+
+.social-links i {
+  margin: 10px;
+  font-size: 50px;
+}
+
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
@@ -199,10 +213,6 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 26px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
